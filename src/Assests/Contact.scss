@@ -1,0 +1,44 @@
+@use "./Commonsstyles.scss" as *;
+
+.contact-section{
+    margin-bottom: 20vh;
+
+    .card-group{
+        .card{
+            border: none;
+            .form{
+                display: block;
+
+                .main-form{
+                    display: flex;
+                    .left-part{
+                       padding-left: 30px;
+                        width: 50%;
+                        height: 100%;
+                        padding-right: 10px;
+
+                    }
+                    .right-part{
+
+padding-left: 10px;
+                        padding-right: 30px;
+                        width:50%;
+                        height: 100%;
+
+                    }
+
+                }
+                         
+                .button{
+                    border-radius: 20px;
+                    padding: 1vh 5vh;
+                    width: fit-content;
+                    background-color: $button_backgroud;
+                    color: white;
+                 
+                }
+        
+            }
+        }
+    }
+}

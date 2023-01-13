@@ -1,0 +1,10 @@
+@use "./Commonsstyles.scss" as *;
+
+.box{
+    background-color: transparent;
+    .appbar{
+        background-color: transparent;
+        box-shadow: none;
+        position: sticky;
+    }
+}

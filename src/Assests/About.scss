@@ -1,0 +1,24 @@
+@use "./Commonsstyles.scss" as *;
+
+.about-section{
+    margin-top: 20vh;
+    padding: 5vh;
+
+    .card-group{
+        .card{
+            border: none;
+
+            .card-image{
+                height: 100%;
+                width: 100%;
+                border-radius: 20px;
+
+                .card-img-top{
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

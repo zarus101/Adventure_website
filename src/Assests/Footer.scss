@@ -1,0 +1,46 @@
+@use "./Commonsstyles.scss" as *;
+
+.footer-section{
+    margin-top: 20vh;
+    background-color: rgb(24, 144, 235);
+
+    .top-part{
+        .card-group{
+           
+            padding: 20px 20px 20px 100px;
+            background: transparent;
+            .card{
+                border: none;     
+                background: transparent;
+                color: white;
+                
+
+                .card-body{
+                  
+
+                    .card-title{
+                        text-align: justify;
+    
+                    }
+    
+                    ul{
+                        padding: 0;
+                        list-style: none;
+                        text-align: justify;
+                        li{
+                            justify-items: left;
+                            padding-top: 4vh;
+                        }
+                    }
+
+                }
+                
+            }
+        }
+
+    }
+    .bottom-part{
+        color: white;
+    }
+
+}

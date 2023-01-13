@@ -1,0 +1,32 @@
+@use "./Commonsstyles.scss" as *;
+
+.location-section{
+
+    .card{
+        border: none;
+    }
+
+    .card-2{
+      
+        
+        padding-left: 3vh;
+        .item-1{
+            padding-top: 5vh;
+           height: 20%;
+            display: flex;
+
+            .icon{
+                padding-top: 2vh;
+                width: 10%;
+                height: 100%;
+            }
+            .text{
+                text-align: left;
+                h6{
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+}

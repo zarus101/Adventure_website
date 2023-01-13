@@ -1,0 +1,50 @@
+@use "./Commonsstyles.scss" as *;
+
+.adventure-section{
+    padding: 5vh;
+    
+
+    .adventure-title{
+
+    }
+
+    .row{
+        
+     
+
+
+    .col{
+    
+       
+        .card{
+            box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+            overflow: hidden;
+
+
+            .card-image{
+                height: 60%;
+                width: 100%;
+                overflow: hidden;
+                
+
+            }
+            .card-img-top{
+                height: 100%;
+                width: 100%;
+              
+           
+                transition: 0.5s ease-in;
+            }
+        }
+
+        .card:hover{
+            .card-img-top{   
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    }
+
+}
+

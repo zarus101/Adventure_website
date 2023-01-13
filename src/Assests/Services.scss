@@ -1,0 +1,60 @@
+@use "./Commonsstyles.scss" as *;
+
+
+.services-section{
+    margin-top: 20vh;
+    padding: 5vh;
+    
+
+    .service-title{
+
+    }
+
+    .row{
+        
+     
+
+
+    .col{
+    
+       
+        .card{
+            box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+            overflow: hidden;
+            align-items:  center;
+            padding-bottom: 5vh;
+
+
+            .card-image{
+               
+                height: 60%;
+                width: 100%;
+                overflow: hidden;
+                
+
+            }
+            .card-img-top{
+                height: 100%;
+                width: 100%;
+                transition: 0.5s ease-in;
+            }
+            .btn{
+                border-radius: 20px;
+                width: fit-content;
+                background-color: $button_backgroud;
+                color: white;
+             
+            }
+        }
+
+        .card:hover{
+            .card-img-top{   
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    }
+
+}
+
