@@ -1,33 +1,40 @@
 import { ImageList, ImageListItem, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
+import { Button, Card, Col, Row } from 'react-bootstrap'
+import AdventureData from '../Data/AdventureData'
 import GalleryData from '../Data/GalleryData'
+import ToursData from '../Data/ToursData'
 
 const Videos = () => {
   return (
     <>
-    <div className="gallery-section">
-      <div className="adventure-title">
+    <div className="adventure-section" id='tour'>
+        <div className="adventure-title">
           <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h4">
-            Videos
+            TOURS PACKAGES
           </Typography>
-          </div>
-        <Box sx={{height: 300,}}>
-          <ImageList variant="masonry" cols={3} gap={8}>
-            {GalleryData.map((item) => (
-              <ImageListItem key={item.img}>
-                <img
-                  src={`${item.img}?w=248&fit=crop&auto=format`}
-                  srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                  alt={item.title}
-                  loading="lazy"
-                />
-              </ImageListItem>
-            ))}
-          </ImageList>
-        </Box>
-      </div>
+        </div>
 
+        <Row xs={1} md={3} className="g-4">
+          {ToursData.map((item, idx) => (
+            <Col>
+              <Card>
+                <div className="card-image">
+                  <Card.Img variant="top" src={item.image} />
+                </div>
+                <Card.Body>
+                  <Card.Title><b>{item.title}</b></Card.Title>
+                  <div className="bottom-card">
+                    <Card.Text>{item.description}</Card.Text>
+                    <Button>See More</Button>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </div>
     </>
   )
 }

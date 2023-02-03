@@ -1,10 +1,20 @@
 @use "./Commonsstyles.scss" as *;
 
-.box{
+.box {
+  background-color: transparent;
+  width: 100%;
+  z-index: 1;
+  .appbar {
     background-color: transparent;
-    .appbar{
-        background-color: transparent;
-        box-shadow: none;
-        position: sticky;
-    }
+    box-shadow: none;
+    position: sticky;
+   
+
+  }
+
+  img {
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+  }
 }

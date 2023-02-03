@@ -6,7 +6,7 @@ import "../Assests/Contact.scss";
 const Contact = () => {
   return (
     <>
-      <div className="contact-section">
+      <div className="contact-section" id="contact">
         <div className="contact-title">
           <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h4">
             Contact

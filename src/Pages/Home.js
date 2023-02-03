@@ -20,7 +20,7 @@ const Home = () => {
 
       <Navbar />
 
-      <div className="main-section">
+      <div className="main-section" id="home">
         <div className="main-container">
           <div className="main">
             <div className="main-text">
@@ -31,28 +31,26 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <br/>
-      <br/>
-      
+      <br />
+      <br />
 
+      <Adventure />
 
-      <Adventure/>
+      <Services />
 
-      <Services/>
+      <About />
 
-      <About/>
+      <Videos />
 
-      <Gallery/>
+      <Gallery />
 
-      <Videos/>
+      <Testimonials />
 
-      <Testimonials/>
+      <Contact />
 
-      <Contact/>
+      <Location />
 
-      <Location/>
-
-      <Footer/>
+      <Footer />
     </>
   );
 };

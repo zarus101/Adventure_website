@@ -7,7 +7,7 @@ import "../Assests/Services.scss"
 const Services = () => {
   return (
     <>
-      <div className="services-section">
+      <div className="services-section" id="service">
         <div className="service-title">
           <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h4">
             Services

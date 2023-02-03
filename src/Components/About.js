@@ -6,7 +6,7 @@ import "../Assests/About.scss";
 const About = () => {
   return (
     <>
-      <div className="about-section">
+      <div className="about-section" id="about">
         <CardGroup>
           <Card>
             <Card.Body>

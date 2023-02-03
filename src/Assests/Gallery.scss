@@ -3,4 +3,46 @@
 .gallery-section{
     margin-top: 20vh;
     padding: 5vh;
+    height: fit-content;
+
+    .card{
+        height: 100%;
+        border-radius:20px ;
+
+        .img{
+            height: 100%;
+            width: 100%;
+        }
+        .card-body{
+            padding-top: 20px;
+       
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.467);
+            position: absolute;
+            transition: .4s ease-in;
+            opacity: 0;
+            .card-title{
+                padding-top: 20px;
+                color: white;
+            }
+        }
+    }
+    .card:hover{
+        .card-body{
+            opacity: 1;
+        }
+    }
+
+
+}
+
+@media (max-width:768px){
+    .gallery-section{
+        height: fit-content;
+        margin-top: 0px;
+        padding: 0px 20px;
+
+    }
 }

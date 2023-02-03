@@ -11,7 +11,7 @@ import "../Assests/Location.scss";
 const Location = () => {
   return (
     <>
-      <div className="location-section">
+      <div className="location-section" id="location">
         <CardGroup>
           <Card>
             <Card.Body>

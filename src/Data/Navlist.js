@@ -4,22 +4,22 @@ const NavlistData={
         {
             id:"1",
             name:"Home",
-            path:"/home"
+            path:"home"
         },
         {
             id:"2",
             name:"Adventure Sports",
-            path:"/"
+            path:"adventure"
         },
         {
             id:"3",
             name:"Services",
-            path:"/"
+            path:"service"
         },
         {
             id:"4",
             name:"About Us",
-            path:'/'
+            path:'about'
         }
 
     ],
@@ -28,27 +28,27 @@ const NavlistData={
     {
         id:"1",
         name:"Gallery",
-        path:"/"
+        path:"gallery"
     },
     {
         id:"2",
-        name:"Videos",
-        path:"/"
+        name:"Tours Package",
+        path:"tour"
     },
     {
         id:"3",
         name:"Testimonials",
-        path:"/"
+        path:"testimonials"
     },
     {
         id:"4",
         name:"LogIN",
-        path:'/'
+        path:''
     },
     {
         id:"5",
         name:"SignUP",
-        path:'/'
+        path:''
     }
 ]
 

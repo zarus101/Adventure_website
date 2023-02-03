@@ -1,10 +1,5 @@
 const ServiceData=[
-    {
-        id:'1',
-        title:'Scuba Diving',
-        description:"Jump in the deep water and experience the best dive of your life.",
-        image:"./images/adventure/skubadiving.webp"
-    },
+ 
     {
         id:'2',
         title:'Flying Fox',
