@@ -1,10 +1,10 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Col,  Row } from "react-bootstrap";
 import AdventureData from "../Data/AdventureData";
 import "../Assests/Adventure.scss";
 import { NavLink } from "react-router-dom";
-import AnnapurnaHeliTour from "../Pages/HeliTour/AnnapurnaHeliTour";
+
 
 const Adventure = () => {
   return (
