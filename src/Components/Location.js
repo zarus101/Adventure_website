@@ -30,7 +30,7 @@ const Location = () => {
                   Our Office Address
                 </Typography>
                 <Typography sx={{ my: 1 }} fontFamily="Sansita" variant="p">
-                  Malad West, Mumbai, Maharashtra 400064
+                  Lakeside-6, Pokhara
                 </Typography>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Location = () => {
                   General Enquiries
                 </Typography>
                 <Typography sx={{ my: 1 }} fontFamily="Sansita" variant="p">
-                  contact@mysites.com
+                  info@mountainstopadventures.com
                 </Typography>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Location = () => {
                   Call Us
                 </Typography>
                 <Typography sx={{ my: 1 }} fontFamily="Sansita" variant="p">
-                  +91-8888888888
+                  +977-9816652583
                 </Typography>
               </div>
             </div>
