@@ -1,9 +1,8 @@
-import { ImageList, ImageListItem, Typography } from '@mui/material'
-import { Box } from '@mui/system'
+import {Typography} from '@mui/material'
+
 import React from 'react'
 import { Button, Card, Col, Row } from 'react-bootstrap'
-import AdventureData from '../Data/AdventureData'
-import GalleryData from '../Data/GalleryData'
+
 import ToursData from '../Data/ToursData'
 
 const Videos = () => {

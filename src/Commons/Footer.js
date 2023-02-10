@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
         <div className="bottom-part">
           <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h6">
-            © Copyrights 2023 - Suraj Thapaliya.All Rights Reserved.
+            © Copyrights 2023.All Rights Reserved.
           </Typography>
         </div>
       </div>

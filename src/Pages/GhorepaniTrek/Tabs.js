@@ -196,7 +196,7 @@ function Tabs() {
                   trekkers of all levels.
                 </p>
 
-                <img src="./images/adventure/Ghorepani-Poonhill-Trek.jpg" alt="trek" />
+                <img  src="./images/adventure/Ghorepani-Poonhill-Trek.jpg" alt=""/>
               </div>
             </div>
           </div>

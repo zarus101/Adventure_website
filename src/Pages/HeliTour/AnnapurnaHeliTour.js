@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import PageNav from "../../Components/PageNav";
+
 import Tabs from "./Tabs";
 const AnnapurnaHeliTour = () => {
   return (
