@@ -15,32 +15,26 @@ const AdventureData=[
     },
    
     {
-        id:'4',
+        id:'3',
         title:'Ghorepani Poon Hill Trek',
         description:"Rappelling is one daring activity which gives you feeling of self achievement.",
         image:"./images/adventure/Ghorepani.jpg",
         path:"/ghorepanitrek"
     },
+    
+    {
+        id:'4',
+        title:'Muktinath Tour',
+        description:"The  Muktinath Tour is a spiritual journey that takes you to two of the most revered Hindu and Buddhist pilgrimage sites in Nepal.  During the tour, you will have the opportunity to learn about the spiritual significance of these temples and connect with your faith. ",
+        image:"./images/adventure/pashupati.jfif",
+        path:"/muktinathtour"
+    },
     {
         id:'5',
-        title:'Kathmandu Bhaktapur Tour',
-        description:"The Ghorepani Poon Hill Trek is a popular trekking route in Nepal that offers stunning views of the Himalayas, including Mount Annapurna and Dhaulagiri. The highlight of the Ghorepani Poon Hill Trek is the panoramic views of the Himalayas, including some of the tallest peaks in the world. From Poon Hill, you will have the opportunity to admire the sunrise over the majestic mountains and capture unforgettable memories.",
-        image:"./images/adventure/kathmandu.jpg",
-        path:"/annapurna/heli-tour"
-    },
-    {
-        id:'6',
-        title:'Pashupati Muktinath Tour',
-        description:"The Pashupati Muktinath Tour is a spiritual journey that takes you to two of the most revered Hindu and Buddhist pilgrimage sites in Nepal.  During the tour, you will have the opportunity to learn about the spiritual significance of these temples and connect with your faith. ",
-        image:"./images/adventure/pashupati.jfif",
-        path:"/annapurna/heli-tour"
-    },
-    {
-        id:'7',
         title:'Pokhara Half Day Tour',
         description:"The Pokhara Half Day Tour takes you to some of the most breathtaking spots in the city, including Phewa Lake, World Peace Pagoda, and Bindabasini Temple. You will have the opportunity to admire stunning scenery and capture unforgettable memories.",
         image:"./images/adventure/pokhara.jpg",
-        path:"/annapurna/heli-tour"
+        path:"/pokharatour"
     },
 ]
 

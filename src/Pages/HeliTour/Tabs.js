@@ -2,7 +2,6 @@ import { ImageList, ImageListItem, Typography } from "@mui/material";
 import { useState } from "react";
 import "../../Assests/Tabs.scss";
 import HeliPhotos from "./HeliPhotos";
-
 function Tabs() {
   const [toggleState, setToggleState] = useState(1);
 
@@ -38,8 +37,8 @@ function Tabs() {
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
           <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h2">
-                  overview
-                </Typography>
+            Details
+          </Typography>
           <div className="details-section">
             <div className="top-section">
               <div className="header">
@@ -181,7 +180,9 @@ function Tabs() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Pricings</h2>
+         <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h2">
+            Pricing
+          </Typography>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             voluptatum qui adipisci.
@@ -191,7 +192,7 @@ function Tabs() {
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h4">
+          <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h2">
             Photos
           </Typography>
           <ImageList sx={{ height: 450 }} variant="woven" cols={3} gap={8}>
