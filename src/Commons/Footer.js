@@ -12,7 +12,7 @@ const Footer = () => {
     <>
       <div className="footer-section">
         <div className="top-part">
-          <CardGroup>
+          {/* <CardGroup>
             <Card>
               <Card.Body>
                 <Card.Title>
@@ -71,7 +71,7 @@ const Footer = () => {
                 </ul>
               </Card.Body>
             </Card>
-          </CardGroup>
+          </CardGroup> */}
         </div>
         <div className="bottom-part">
           <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h6">

@@ -3,6 +3,8 @@ import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import AdventureData from "../Data/AdventureData";
 import "../Assests/Adventure.scss";
+import { NavLink } from "react-router-dom";
+import AnnapurnaHeliTour from "../Pages/HeliTour/AnnapurnaHeliTour";
 
 const Adventure = () => {
   return (
@@ -15,17 +17,24 @@ const Adventure = () => {
         </div>
 
         <Row xs={1} md={3} className="g-4">
-          {AdventureData.map((item, idx) => (
-            <Col>
+          {AdventureData.map((item) => (
+            <Col key={item.id}>
               <Card>
                 <div className="card-image">
                   <Card.Img variant="top" src={item.image} />
                 </div>
                 <Card.Body>
-                  <Card.Title><b>{item.title}</b></Card.Title>
+                  <Card.Title>
+                    <b>{item.title}</b>
+                  </Card.Title>
                   <div className="bottom-card">
                     <Card.Text>{item.description}</Card.Text>
-                    <Button>See More</Button>
+                    <NavLink to={item.path}>
+                      <Button
+                      >
+                        See More
+                      </Button>
+                    </NavLink>
                   </div>
                 </Card.Body>
               </Card>

@@ -18,7 +18,7 @@ const Home = () => {
     <>
       {/* <Topbar /> */}
 
-      <Navbar />
+      {/* <Navbar />
 
       <div className="main-section" id="home">
         <div className="main-container">
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
       </div>
       <br />
-      <br />
+      <br /> */}
 
       <Adventure />
 
@@ -40,17 +40,9 @@ const Home = () => {
 
       <About />
 
-      <Videos />
-
       <Gallery />
 
-      <Testimonials />
-
-      <Contact />
-
       <Location />
-
-      <Footer />
     </>
   );
 };
