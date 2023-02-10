@@ -158,7 +158,7 @@ function Tabs() {
                   and steep inclines.
                 </p>
 
-                <img src="./images/adventure/annapurnatrekroute.jpg" />
+                <img src="./images/adventure/annapurnatrekroute.jpg" alt=""/>
               </div>
             </div>
           </div>
