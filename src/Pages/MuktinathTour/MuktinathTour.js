@@ -1,15 +1,14 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import PageNav from "../../Components/PageNav";
 import Tabs from "./Tabs";
-const AnnapurnaHeliTour = () => {
+const MuktinathTour = () => {
   return (
     <>
       <div className="maincontent">
         <div className="content-title">
           <div className="adventure-title">
             <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h4">
-              Annapurna Base Camp Helicopter
+              Muktinath Tour
             </Typography>
           </div>
         </div>
@@ -24,4 +23,4 @@ const AnnapurnaHeliTour = () => {
   );
 };
 
-export default AnnapurnaHeliTour;
+export default MuktinathTour;

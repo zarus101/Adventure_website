@@ -15,8 +15,6 @@ const SimpleLayout = ({ children }) => {
             <div className="main-text">
               <h1>Enjoyable and Breathtaking Adventure Sport</h1>
             </div>
-
-            <Button className="button">Enquire Now</Button>
           </div>
         </div>
         <div className="content-area">

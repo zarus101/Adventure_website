@@ -1,7 +1,7 @@
 import { ImageList, ImageListItem, Typography } from "@mui/material";
 import { useState } from "react";
 import "../../Assests/Tabs.scss";
-import HeliPhotos from "./ghorepaniPhotos";
+import HeliPhotos from "./muktinathPhotos";
 
 function Tabs() {
   const [toggleState, setToggleState] = useState(1);
@@ -50,48 +50,34 @@ function Tabs() {
               <hr />
               <div className="content-area">
                 <p>
-                  Ghorepani Poon Hill trek is one of the most popular trekking
-                  destinations in Nepal, offering stunning views of the
-                  Himalayas and lush forested landscapes. This trek is
-                  considered as an easy and short trek, which can be completed
-                  in just 4-5 days. The trek starts from Nayapul, a small town
-                  located at the base of the Annapurna range and ends at the
-                  famous viewpoint of Poon Hill, which is known for its
-                  breathtaking views of the sun rising over the peaks of
-                  Annapurna South, Annapurna I, Hiunchuli, Machhapuchhre, and
-                  Dhaulagiri.
+                  Muktinath is a sacred Hindu and Buddhist temple located in
+                  Mustang, Nepal. The temple is considered one of the most
+                  important pilgrimage sites for both religions and attracts
+                  thousands of visitors every year.
                 </p>
                 <br />
                 <p>
-                  As you walk through the lush forests of rhododendrons, oaks,
-                  and firs, you will encounter a variety of wildlife such as
-                  monkeys, birds, and the occasional deer. The trek will take
-                  you through small villages and communities where you can learn
-                  about the local culture and lifestyle. The trek is also a
-                  great opportunity to interact with the locals, who are warm
-                  and friendly, and to sample the delicious local cuisine.
+                  The temple has a rich history, believed to have been
+                  established by King Vikramaditya in the first century BC. The
+                  temple has been mentioned in several ancient Hindu scriptures
+                  and is considered to be a manifestation of Lord Vishnu.
                 </p>
                 <br />
                 <p>
-                  One of the highlights of the trek is the visit to the
-                  Ghorepani village, which is located on a hill and offers
-                  panoramic views of the surrounding landscapes. The trek also
-                  passes through the historic Magar village of Ulleri, which is
-                  known for its traditional architecture and beautiful terraced
-                  fields. As you make your way to Poon Hill, you will encounter
-                  several steep inclines and descents, but the views from the
-                  top will make all the effort worth it.
+                  The temple complex consists of several shrines, including a
+                  108 spout sacred bath and a pagoda-style temple dedicated to
+                  Lord Vishnu. Visitors can also visit the nearby Jwala Mai
+                  Temple, which is dedicated to the Hindu goddess of fire, and
+                  the statue of Lord Shiva.
                 </p>
                 <br />
                 <p>
-                  The trek to Poon Hill is a great choice for those looking for
-                  a short and easy trek in Nepal. It is suitable for people of
-                  all ages and fitness levels and is a great way to experience
-                  the beauty of the Himalayas and the culture of Nepal. Whether
-                  you are a seasoned trekker or a first-timer, the Ghorepani
-                  Poon Hill trek is a must-do experience. So, pack your bags,
-                  grab your camera and head to Nepal for an unforgettable
-                  trekking experience.
+                  Muktinath is considered one of the most important pilgrimage
+                  sites for Hindus and Buddhists. It is believed that a visit to
+                  Muktinath can grant salvation and liberation from the cycle of
+                  reincarnation. Pilgrims visit the temple to perform puja, take
+                  a bath in the sacred waters, and seek blessings from the
+                  deity.
                 </p>
               </div>
             </div>
@@ -196,7 +182,10 @@ function Tabs() {
                   trekkers of all levels.
                 </p>
 
-                <img src="./images/adventure/Ghorepani-Poonhill-Trek.jpg" alt="trek" />
+                <img
+                  src="./images/adventure/Ghorepani-Poonhill-Trek.jpg"
+                  alt="trek"
+                />
               </div>
             </div>
           </div>
