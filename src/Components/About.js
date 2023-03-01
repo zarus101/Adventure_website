@@ -15,14 +15,10 @@ const About = () => {
               </Typography>
 
               <Card.Text>
-                About Us We, Outdoor Escapes, based in Malad West, Mumbai,
-                Maharashtra, are one of the leading facilitators for adventure
-                sports and camping, creating thrilling, experiential and
-                memorable experiences. Our adventurous sports and camping
-                activities are specially designed to rejuvenate your mind and
-                body from the madding hustle and bustle of city life. We offer a
-                wide range of activities to choose from, including kayaking,
-                rafting, paragliding, rappelling, campfire, flying fox, etc
+              We are a Government registered local trekking agency of Nepal
+               with the register number: 306494/079/080
+                having decades of experience in Nepal travel,
+               trekking & hospitality industry
               </Card.Text>
             </Card.Body>
           </Card>
