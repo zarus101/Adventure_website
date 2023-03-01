@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../../Assests/Tabs.scss";
 import HeliPhotos from "./AnnapurnaTrekPhotos";
 
-function Tabs() {
+function Tabs({children}) {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {

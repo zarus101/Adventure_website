@@ -42,7 +42,7 @@ function Tabs() {
           <div className="details-section">
             <div className="top-section">
               <div className="header">
-                <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h4">
+                <Typography sx={{ my: 2 }} fontFamily="Sansita" variant="h1">
                   overview
                 </Typography>
               </div>

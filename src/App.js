@@ -11,6 +11,8 @@ import AnnapurnaTrek from "./Pages/AnnaPurnaTrek/AnnapurnaTrek";
 import GhorepaniTrek from "./Pages/GhorepaniTrek/GhorepaniTrek";
 import MuktinathTour from "./Pages/MuktinathTour/MuktinathTour";
 import PokharaTour from "./Pages/PokharaHalfTour/PokharaTour";
+import Topbar from "./Commons/Topbar";
+
 
 function App() {
   return (
@@ -22,9 +24,10 @@ function App() {
             <Route path="/heli-tour" element={<AnnapurnaHeliTour />} />
             <Route path="/annapurnatrek" element={<AnnapurnaTrek />} />
             <Route path="/ghorepanitrek" element={<GhorepaniTrek />} />
-            <Route path="/muktinathtour" element={<MuktinathTour/>} />
-            <Route path="/pokharatour" element={<PokharaTour/>} />
+            <Route path="/muktinathtour" element={<MuktinathTour />} />
+            <Route path="/pokharatour" element={<PokharaTour />} />
           </Routes>
+
           <Footer />
         </SimpleLayout>
       </BrowserRouter>

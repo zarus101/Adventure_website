@@ -19,6 +19,7 @@
 .active-tabs {
   background: white;
   border-bottom: 1px solid transparent;
+  color: black;
 }
 
 .active-tabs::before {
@@ -63,47 +64,3 @@ button {
   display: block;
 }
 
-.details-section {
-  .top-section {
-    .header {
-      text-align: left;
-      color: blue;
-      text-transform: capitalize;
-      h4 {
-        font-weight: bold;
-      }
-    }
-
-    .content-area {
-      text-align: justify;
-    }
-  }
-  .middle-section {
-    .header {
-      text-align: left;
-      color: blue;
-      text-transform: capitalize;
-      h4 {
-        font-weight: bold;
-      }
-    }
-
-    .content-area {
-      text-align: justify;
-    }
-  }
-  .bottom-section {
-    .header {
-      text-align: left;
-      color: blue;
-      text-transform: capitalize;
-      h4 {
-        font-weight: bold;
-      }
-    }
-
-    .content-area {
-      text-align: justify;
-    }
-  }
-}

@@ -9,7 +9,7 @@ import React from "react";
 import "../Assests/Topbar.scss";
 import { IconButton, Typography } from "@mui/material";
 
-const Topbar = () => {
+const Topbar = ({children}) => {
   return (
     <>
       <div className="topbar-section">
@@ -63,6 +63,9 @@ const Topbar = () => {
             <h5>Suraj Thapaliya</h5>
           </div> */}
         </div>
+
+
+        {children}
       </div>
     </>
   );

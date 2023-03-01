@@ -18,6 +18,7 @@ import NavlistData from "../Data/Navlist";
 import "../Assests/Navbar.scss";
 import { useScrollTrigger } from "@mui/material";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -100,11 +101,11 @@ function Navbar(props) {
 
               <Box sx={{ display: { xs: "none", sm: "block" } }}>
                 {NavlistData.list1.map((item) => (
-                  <Link to={item.path} spy={true} smooth={true} offset={50} duration={500}>
+                  <NavLink to={item.path} spy={true} smooth={true} offset={50} duration={500}>
                     <Button key={item.id} sx={{ color: "#fff" }}>
                       {item.name}
                     </Button>
-                  </Link>
+                  </NavLink>
                 ))}
               </Box>
               <Typography

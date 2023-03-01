@@ -10,6 +10,8 @@ import Gallery from "../Components/Gallery";
 
 
 import Location from "../Components/Location";
+import Exploresection from "../Components/Adventure1";
+import Explorehouse from "../Components/Videos";
 
 
 const Home = () => {
