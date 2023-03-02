@@ -18,7 +18,7 @@ const AdventureData=[
         id:'3',
         title:'Ghorepani Poon Hill Trek',
         description:"Rappelling is one daring activity which gives you feeling of self achievement.",
-        image:"./images/gallery/ghorepani/punhill.jpg",
+        image:"./images/gallery/ghorepani/Poonhill.jpg",
         path:"/ghorepanitrek"
     },
     {
