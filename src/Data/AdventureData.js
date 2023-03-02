@@ -3,7 +3,7 @@ const AdventureData=[
         id:1,
         title:'Annapurna Base Camp Helicopter',
         description:"The helicopter tour of Annapurna Base Camp offers panoramic views of the Himalayas, glaciers, and lush forests. This is an opportunity to admire the majestic scenery from a bird's-eye view and capture unforgettable memories",
-        image:"./images/adventure/annapurna.jpg",
+        image:"./images/gallery/Annapurna Scantury.jpg",
         path:"/heli-tour"
     },
     {

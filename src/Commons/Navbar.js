@@ -113,7 +113,7 @@ function Navbar(props) {
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
               >
-                <img src="./images/images.png" alt="logo" />
+                {/* <img src="./images/images.png" alt="logo" /> */}
               </Typography>
               <Box sx={{ display: { xs: "none", sm: "block" } }}>
                 {NavlistData.list2.map((item) => (

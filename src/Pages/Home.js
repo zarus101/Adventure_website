@@ -28,6 +28,9 @@ const Home = () => {
       <About />
 
       <Gallery />
+      <br/>
+      <br/>
+      <br/>
 
       <Location />
     </>

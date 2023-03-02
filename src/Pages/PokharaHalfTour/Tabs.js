@@ -198,8 +198,11 @@ function Tabs() {
             Pricing
           </Typography>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatum qui adipisci.
+            Pricing may differ according to the season. so please contact us through email or phone to know the details regarding Pricing.
+            <br/>
+            <span><b>Email: </b></span> <b>info@mountainstopadventures.com</b>
+            <br/>
+            <span> <b> Phone: </b></span> <b>+977-9816652583s</b>
           </p>
         </div>
 

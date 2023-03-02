@@ -16,7 +16,7 @@ const Location = () => {
           <Card>
             <Card.Body>
               <div className="card-image">
-                <Card.Img variant="top" src="./images/homepage/about.webp" />
+                <Card.Img variant="top" src="./images/gallery/ghorepani/punhill.jpg" />
               </div>
             </Card.Body>
           </Card>
