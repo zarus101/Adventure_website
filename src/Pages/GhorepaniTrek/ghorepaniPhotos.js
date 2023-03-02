@@ -1,17 +1,20 @@
 const ghorePaniPhotos = [
-    {
-      img: './images/gallery/1.webp',
-      title: "Bed",
-    },
-    {
-      img:'./images/gallery/2.webp',
-      title: "Books",
-    },
-    {
-      img: './images/gallery/3.webp',
-      title: "Sink",
-    },
-    
-  ];
-  
-  export default ghorePaniPhotos;
+  {
+    img: "./images/gallery/ghorepani/Ghandrug Village .jpg",
+    title: "Bed",
+  },
+  {
+    img: "./images/gallery/ghorepani/Poonhill. Ghandrug.jpg",
+    title: "Books",
+  },
+  {
+    img: "./images/gallery/ghorepani/Punhill.jpg",
+    title: "Sink",
+  },
+  {
+    img: "./images/gallery/ghorepani/Poonhill.jpg",
+    title: "Sink",
+  },
+];
+
+export default ghorePaniPhotos;

@@ -10,7 +10,7 @@ const AdventureData=[
         id:'2',
         title:'Annapurna Base Camp Trek',
         description:"Annapurna Base Camp is one of the most popular trekking destinations in Nepal.  The Annapurna Base Camp trek takes you through lush forests, rolling hills, and terraced fields, offering breathtaking views of the Himalayas and the surrounding landscape. ",
-        image:"./images/adventure/annapurna2.jfif",
+        image:"./images/adventure/ABC night.jpg",
         path:"/annapurnatrek"
     },
    
@@ -18,16 +18,8 @@ const AdventureData=[
         id:'3',
         title:'Ghorepani Poon Hill Trek',
         description:"Rappelling is one daring activity which gives you feeling of self achievement.",
-        image:"./images/adventure/Ghorepani.jpg",
+        image:"./images/gallery/ghorepani/punhill.jpg",
         path:"/ghorepanitrek"
-    },
-    
-    {
-        id:'4',
-        title:'Muktinath Tour',
-        description:"The  Muktinath Tour is a spiritual journey that takes you to two of the most revered Hindu and Buddhist pilgrimage sites in Nepal.  During the tour, you will have the opportunity to learn about the spiritual significance of these temples and connect with your faith. ",
-        image:"./images/adventure/pashupati.jfif",
-        path:"/muktinathtour"
     },
     {
         id:'5',
