@@ -101,11 +101,11 @@ function Navbar(props) {
 
               <Box sx={{ display: { xs: "none", sm: "block" } }}>
                 {NavlistData.list1.map((item) => (
-                  <NavLink to={item.path} spy={true} smooth={true} offset={50} duration={500}>
+                  <Link to={item.path} spy={true} smooth={true} offset={50} duration={500}>
                     <Button key={item.id} sx={{ color: "#fff" }}>
                       {item.name}
                     </Button>
-                  </NavLink>
+                  </Link>
                 ))}
               </Box>
               <Typography

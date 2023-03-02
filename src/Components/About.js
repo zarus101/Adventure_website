@@ -24,7 +24,7 @@ const About = () => {
           </Card>
           <Card>
             <div className="card-image">
-              <Card.Img variant="top" src="./images/gallery/ghorepani/punhill.jpg" />
+              <Card.Img variant="top" src="./images/gallery/ghorepani/Poonhill. Ghandrug.jpg" />
             </div>
           </Card>
         </CardGroup>
